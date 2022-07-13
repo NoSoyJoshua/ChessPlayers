@@ -1,1 +1,1 @@
-{"version":3,"sources":["ApiError.scss","../../variables/_variables.scss","ApiError.css"],"names":[],"mappings":"AAEA;EACI,iBAAA;EACA,aAAA;EACA,yBCFU;EDGV,yBAAA;EACA,mBAAA;AEDJ","file":"ApiError.css"}
+{"version":3,"sources":["ApiError.scss","../../sass/_variables.scss","ApiError.css"],"names":[],"mappings":"AAEA;EACI,iBAAA;EACA,aAAA;EACA,yBCFU;EDGV,yBAAA;EACA,mBAAA;AEDJ","file":"ApiError.css"}
