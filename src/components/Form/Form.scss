@@ -1,0 +1,49 @@
+@use "../../variables/variables";
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    width: clamp(15rem, 30vw, 30rem);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: variables.$light-color;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 2.5rem;
+    transition: width 0.4s ease-in-out;
+    font-size: 1rem;
+
+    input[type=text] {
+        border: none;
+        border-bottom: variables.$dark-color solid 1px;
+        width: 5rem;
+        padding: 0.5rem;
+        font-size: inherit;
+        transition: width 0.4s ease-in-out;
+        text-align: center;
+        background-color: inherit;
+
+        &:focus {
+            outline: none;
+            width: 100%;
+        }
+    }
+
+    input[type=submit] {
+        border: none;
+        background-color: variables.$dark-color;
+        color: variables.$light-color;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: width 0.4s ease-in-out;
+        border-radius: 5px;
+        font-size: inherit;
+        width: 5rem;
+        height: 2.5rem;
+
+        &:hover {
+            background-color: variables.$strong-color;
+        }
+    }
+}
