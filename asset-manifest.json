@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chessplayers/static/css/main.e10bcc23.css",
+    "main.js": "/chessplayers/static/js/main.1046ceab.js",
+    "index.html": "/chessplayers/index.html",
+    "main.e10bcc23.css.map": "/chessplayers/static/css/main.e10bcc23.css.map",
+    "main.1046ceab.js.map": "/chessplayers/static/js/main.1046ceab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10bcc23.css",
+    "static/js/main.1046ceab.js"
+  ]
+}
